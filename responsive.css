@@ -1,20 +1,33 @@
-@media screen and (max-width:400){
+@media screen and (max-width:576px){
+    nav{
+        padding: 0px;
+    
+    }
     .nav-container
     {
         flex-direction: column;
     
-    }
-    .logo-container{
-        flex-direction: column;
-        width: 100%;
-    }
-    .nav-item{
-        flex-direction: column;
-        width: 100%;
-    }
-    .logo-img{
-        flex-direction: column;
-        margin-bottom: 20px;
+    
     }
 
+    .nav-item{
+        flex-direction: column;
+        padding: 50px;
+       
+    }
+    .logo-img{
+        
+        width: 262px;
+        
+    }
+    .card-title{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card-img{
+        flex-direction: column;
+        
+    }
+     
+    
 }
