@@ -1,0 +1,20 @@
+@media screen and (max-width:400){
+    .nav-container
+    {
+        flex-direction: column;
+    
+    }
+    .logo-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-item{
+        flex-direction: column;
+        width: 100%;
+    }
+    .logo-img{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+}
