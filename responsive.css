@@ -6,7 +6,7 @@
     .nav-container
     {
         flex-direction: column;
-    
+       
     
     }
 
@@ -28,6 +28,39 @@
         flex-direction: column;
         
     }
-     
-    
+    .banner-container{
+        flex-direction: column-reverse;
+        width: 165%;
+        height: 775px;
+        align-items: center;
+        margin-top:300px;
+        
+
+    }
+    /* .card-container{
+        margin: 0;
+
+    }
+    .image{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .card-img{
+        width: 603px;
+height: 560.331px;
+border-radius: 16px;
+margin-bottom: 200px ;
+    }
+    .card-title{
+        flex-direction: column;
+    } */
+    /* .container{
+        flex-direction: column;
+    }
+      */
+     .footer-container{
+        flex-direction: column;
+        
+     }
 }
