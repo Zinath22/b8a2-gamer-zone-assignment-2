@@ -267,15 +267,19 @@ height: 446px;
     align-items: center;
     list-style: none;
     margin: 0 182px 150px 182px;
+ 
 
 
 }
 
 .content {
     display: flex;
-    justify-content: center;
+   justify-content: center;
     align-items: center;
     gap: 27px;
+  margin-bottom: 30px;
+
+
 }
 .arcade{
     border-radius: 50px;
@@ -285,11 +289,13 @@ height: 446px;
 .content:hover{
     border: 1px solid blue;
     border-radius: 50px;
+    
 }
- 
+
+/*  
 .hidden{
     visibility:hidden;
-}
+} */
 
 /* footer  */
 footer {
