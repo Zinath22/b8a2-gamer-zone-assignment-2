@@ -1,94 +1,74 @@
-/* font   */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Work+Sans:wght@400;500;600;700;800&display=swap');
- 
-* {
-    font-family: 'Lato', sans-serif;
-    /* font-family: 'Open Sans', sans-serif; */
-    font-family: 'Work Sans', sans-serif;
-}
- 
- * {
-    margin: 0;
-    padding: 0;
 
-}
 
-body {
- overflow-x: hidden;
-}  
-
-nav {
+nav{
     width: 100%;
-    background: #FFF;
-    margin: 38px auto;
-
+    margin:  38px auto;
 }
 
 .nav-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap:30px;
     
-    
-
-
-
 }
-
-.logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+.nav-name{
     font-size: 45px;
-    
-
-
 }
-
 .span {
-    color: #FF42A5;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.nav-item {
+.logo-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 10px;
-
-
 }
 
-
-.nav-item li {
+.logo-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     list-style: none;
-}
-
-.nav-item li a {
-    text-decoration: none;
-    color: #3C354F;
-    text-align: center;
-    font-size: 18px;
-
-    font-weight: 500;
-}
-
-.logo-img {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+    gap: 32px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 17px 24px;
-    border-radius: 8px;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
 }
 
-.logo-img img {
 
+.logo-container img {
+    margin-right: 20px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.logo-img img{
     width: 32px;
 }
+        
+
+
+.nav-img img{
+width: 32px;
+}
+
+
+
 
 /* banner section  */
 .banner-container {
@@ -96,9 +76,11 @@ nav {
     margin-left: 50px; */
     background: #FFF;
     /* margin-top: 120px; */
+    width: 100%;
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -107,15 +89,14 @@ nav {
     /* padding-left: 240px; */
     align-items: center;
     margin-left: 100px;
-    /* margin-bottom: 140px; */
+    /* margin-bottom:0px; */
     
 }
 
-.banner-img {
-    width: 711px;
-    height: 446px;
-   margin-top: 60px;
-   margin-bottom: 140px;
+.banner-img img {
+   width: 100%;
+   /* margin-top: 60px;
+   margin-bottom: 140px; */
 }
 
 .play {
@@ -123,6 +104,8 @@ nav {
     text-align: center;
     font-size: 48px;
     font-weight: 600;
+    margin: 0px;
+
 }
 
 .title {
@@ -131,6 +114,8 @@ nav {
     font-size: 95px;
     font-weight: 800;
     color: #8758F1;
+    /* margin-top: 20px; */
+    
 }
 
 .click {
@@ -138,6 +123,7 @@ nav {
     font-size: 20px;
     font-weight: 500;
     padding: 17px;
+    /* margin-top: 20px; */
 }
 
 .main-button {
@@ -150,7 +136,7 @@ nav {
     border-radius: 48px;
     background: #FF42A5;
     border: 0;
-    width: 156px;
+    /* width: 156px; */
     height: 65px;
     padding: 21px 40px;
     color: #FFF;
@@ -165,12 +151,13 @@ nav {
     border-radius: 48px;
     background: #4EC5F7;
     padding: 21px 40px;
-    width: 185px;
+    /* width: 185px; */
     height: 65px;
     border: none;
     margin-left: 27px;
 
 }
+
 
 /* card section  */
 .card-container {
@@ -228,7 +215,6 @@ nav {
 }
 
 
-
 /* play section  */
 
 .container {
@@ -278,12 +264,12 @@ nav {
 }
 
 /* icon section  */
-.icon-main {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+.i-con {
+    display: flex;
+    justify-content: center;
     align-items: center;
     /* margin: 0 182px 150px 182px; */
-
+     gap: 20px;
 
 
 
@@ -318,6 +304,7 @@ nav {
     color: blue;
 
 }
+
 
 /* footer  */
 footer {
@@ -371,4 +358,9 @@ footer {
 footer {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+
+.footer-list a img{
+    width: 30px;
 }

@@ -1,63 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gamer</title>
-    <link rel="shortcut icon" href="images/Frame.png">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-</head>
-<body>
-    <header class="">
-    <nav class="nav-container ">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gamer</title>
+        <link rel="shortcut icon" href="images/Frame.png">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <!-- <style>
         
-            <div class="logo-container">
-                <img src="images/Frame.png" alt="">
-                <h1><span class="span">G</span>amer</h1>
-            </div>
-
-        <div class="nav-item-container">
-          <ul class="nav-item">
-            <li><a href="">About Us</a></li>
-            <li><a href="">Developers</a></li>
-            
-        
-            <div class="logo-img">
-                <li><a href="">Follow Us On</a></li>
-            <li><a href=""><img src="images/youtube.jpg" alt=""></a></li>
-            <li><a href=""><img src="images/tiktok.jpg" alt=""></a> </li>
-        </div>
-    </ul>
-        </div>
-
-    </nav>
-     
+        .color-pink {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
-</header>
-<main>
-    <!-- banner section  -->
-    <section>
-        <div class="banner-container ">
-            <div class="banner-description">
-            <h2 class="play">Play Like The</h2>
-            <h1 class="title">G.O.A.T.</h1>
-            <p class="click">1-Click instant play</p>
-            <p class="click">No Download</p>
-            <p class="click">1000s of supported online games</p>
-            <div class="main-button">
-            <button class="btn-1">Sign In</button>
-            <button class="btn-2">Go Rogue</button>
-        </div>
-        </div>
-        <div class="banner-img">
-            <img src="images/Group 18.png" alt="">
-        </div>
-    </div>
-        
-      </section>
-      <!-- card section  -->
+.nav-container,
+.nav-logo,
+.follow-us,
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo img {
+    margin-right: 20px;
+}
+
+.nav-menu,
+.follow-us {
+    list-style: none;
+    gap: 32px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow-us {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 17px 24px;
+}
+
+.follow-us img{
+    width: 32px;
+}
+    </style> -->
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav-container">
+                    <div class="logo-container">
+                        <img src="./images/Frame.png" alt>
+                        <h2 class="nav-name"><span class="span">G</span>amer</h2>
+                    </div>
+                    <div class="nav-item-container">
+                        <ul class="nav-item">
+                            <li><a href>About Us</a></li>
+                            <li><a href>Devloper</a></li>
+                            <div class="logo-img">
+                                <li><a href>Follow Us On</a></li>
+                                <li><a href><img src="images/youtube.jpg" alt></a></li>
+                                <li><a href><img src="images/tiktok.jpg" alt></a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- main -->
+        <main>
+            <!-- banner section  -->
+            <section class>
+                <div class="banner-container">
+                    <div class="banner-description">
+                        <h2 class="play">Play Like The</h2>
+                        <h1 class="title">G.O.A.T.</h1>
+                        <p class="click">1-Click instant play</p>
+                        <p class="click">No Download</p>
+                        <p class="click">1000s of supported online games</p>
+                        <div class="main-button">
+                            <button class="btn-1">Sign In</button>
+                            <button class="btn-2">Go Rogue</button>
+                        </div>
+                    </div>
+                    <div class="banner-img">
+                        <img src="images/Group 18.png" alt>
+                    </div>
+                </div>
+
+            </section>
+
+             <!-- card section  -->
       <section class="card-container">
         <h1 class="card-title"> Online Games <span class="span-text">Funny Videos</span> </h1>
         <p class="title-description">
@@ -87,9 +130,9 @@
     
     </section>
 
-      <!-- play section  -->
+      <!-- play section   -->
       <section class="">
-        <div class="container">
+        <div class="container ">
             <div class="play-description">
                 <h2 class="play-title"><span class="span">Play Instantly,</span><br>
                     No Downloads <br>
@@ -97,7 +140,7 @@
                     <p class="play-game">Play games online for free without downloading.Just click the Play button and play instantly in your browser.</p>
             </div>
             <div class="play-img">
-                <img src="images/Rectangle 55.png" alt="">
+                <img src="images/Rectangle 55.png" alt="" class="upper-img">
                 <div class="side-img">
                  <img src="images/Rectangle 66.png" alt="">
                 </div>
@@ -105,9 +148,10 @@
         </div>
       </section>
 
-      <!-- icon section  -->
-      <section class="">
+       <!-- icon section  -->
+       <section class=" ">
         <div class="icon-main">
+          <div class="i-con">
             <div class="content">
                 <img src="images/Rectangle 11.png" alt="">
                <h3>Action Games</h3>
@@ -116,7 +160,7 @@
                 <img src="images/Rectangle 12.png" alt="">
                <h3>Adventure Games</h3>
             </div>
-            <div class="content arcade">
+            <div class="content arcade content">
                 <img src="images/Rectangle 13.png" alt="">
                <h3>Arcade Games</h3>
             </div>
@@ -146,12 +190,14 @@
                 <img src="images/Rectangle 18.png" alt="">
                <h3>Strategy Games</h3>
             </div>
-            
+        </div>
          
         </div>
       </section>
-</main>
-<!-- footer section  -->
+        </main>
+
+
+        <!-- footer section  -->
 <footer class="" >
     <div class="footer-container">
         <div>
@@ -172,14 +218,13 @@
             <li><a href=""><img src="images/f2.jpg" alt=""></a></li>
             <li><a href=""><img src="images/f3.jpg" alt=""></a></li>
             <li><a href=""><img src="images/f5.jpg" alt=""></a></li> 
-            <li><a href=""><img src="images/f6.jpg" alt=""></a></li>
+            <!-- <li><a href=""><img src="images/f6.jpg" alt=""></a></li> -->
             
            
     </ul>
         <ul class="footer-settings">
         <li>Terms and Conditions</li>
         <li>Privacy Policy</li>
-        <li>Cookie Policy</li>
         <li>Cookie Policy</li>
         <li>Privacy Settings</li>
         </ul>
@@ -189,5 +234,5 @@
     
 
 </footer>
-</body>
+    </body>
 </html>
