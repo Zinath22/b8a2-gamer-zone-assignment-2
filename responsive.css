@@ -16,6 +16,9 @@
     width: 90%;
     /* padding: 10px; */
 }
+.btn-1{
+    margin-bottom: 20px;
+}
 .container{
     transform: scale(0.7);
 }
@@ -68,6 +71,9 @@
 .banner-img{
     width: auto;
     align-items: center;
+}
+.btn-1{
+    margin-bottom: 20px;
 }
 .card-container,
 .play-title{
