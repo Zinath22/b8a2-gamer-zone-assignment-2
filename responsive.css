@@ -16,6 +16,9 @@
     width: 90%;
     /* padding: 10px; */
 }
+.container{
+    transform: scale(0.7);
+}
 .upper-img
 {
     width: 70%;
@@ -24,18 +27,12 @@
     width: 50%;
     margin: 10px auto;
 }
- .i-con,
-.content,
-.four-icon{
-   flex-wrap: wrap;
-} 
 
 .icon-main{
-    /* display: grid; */
-    grid-template-columns: repeat(3, 1fr) ;
-    /* gap: 0px; */
-    
-} 
+    grid-template-columns: repeat(3, 1fr);
+    transform: scale(0.7);
+}
+ 
  .footer-list{
     display: grid;
     grid-template-columns: repeat(3,1fr) ;
@@ -45,12 +42,73 @@
     grid-template-columns: repeat(2,1fr) ;
  }
  footer{
-    padding: 120px 0px;
+    padding: 0px 0px;
+    
     
  }
  .footer-container{
     transform: scale(0.7);
  }
+}
+
+
+/* tablet section  */
+@media screen and (min-width:500px) and (max-width:992px){
+    .nav-container,
+    .nav-item,
+    .banner-container,
+    .main-button,
+    .card,
+    .container
+    {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-img{
+    width: auto;
+    align-items: center;
+}
+.card-container,
+.play-title{
+    margin-bottom: 0px;
+}
+.container{
+    transform: scale(0.7);
+}
+.upper-img
+{
+    width: 70%;
+}
+.play-img{
+    width: 50%;
+    margin: 10px auto;
+}
+.icon-main{
+    grid-template-columns: repeat(3, 1fr);
+    transform: scale(0.7);
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+ }
+ .footer-settings{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+ }
+ footer{
+    padding: 0px 0px;
+    
+    
+ }
+ .footer-container{
+    transform: scale(0.7);
+ }
+
+    
 }
 
 
